@@ -1,0 +1,6 @@
+<form (ngSubmit)="onSubmit()" #websiteForm="ngForm" class="website-form">
+    <label for="website">Website:</label>
+    <input type="text" id="website" name="website" [(ngModel)]="website" required class="website-input">
+    <button type="submit" [disabled]="!websiteForm.valid" class="submit-button">Submit</button>
+  </form>
+  

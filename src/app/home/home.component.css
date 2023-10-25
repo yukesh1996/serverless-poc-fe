@@ -1,0 +1,30 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 50px 0;
+  }
+  
+  /* Style the table header */
+  th {
+    background-color: #007BFF;
+    color: #fff;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+  }
+  
+  /* Style the table rows */
+  td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Apply alternating row background colors */
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Highlight the table rows on hover */
+  tr:hover {
+    background-color: #cce5ff;
+  }

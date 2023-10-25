@@ -1,0 +1,9 @@
+<h1 style="text-align: center;">Products</h1>
+<div class="product-list">
+<div class="product" *ngFor="let item of products">
+    <img src="{{item.img}}" alt="">
+    <h2 class="name" style="text-transform: capitalize;">{{item.title}}</h2>
+    <p class="description" style="text-transform: capitalize;">{{item.description}}</p>
+    <span class="price">{{item.price}}</span>
+</div>
+</div>
